@@ -11,17 +11,14 @@
   /* Resto del CSS */
   
   body {
-    display: flex;
-    flex-grow: 1;
-    width: 100%;
+    display: grid;
     background-color: aliceblue;
     
   }
 
   .grid-container {
     display: grid; 
-    max-width: 100%;
-    min-width: 100vh;
+    height: auto;
     padding: 1rem;
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
